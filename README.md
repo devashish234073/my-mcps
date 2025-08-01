@@ -21,20 +21,21 @@ A simple Model Context Protocol (MCP) server implementation in Node.js. This ser
    ```
 2. Open the my-mcp folder in vscode
 3. Open copilot cht
-   <img width="508" height="308" alt="image" src="https://github.com/user-attachments/assets/5cdec5fd-5931-48b4-8e28-e94ba1342e9c" />
+   <br><img width="508" height="308" alt="image" src="https://github.com/user-attachments/assets/5cdec5fd-5931-48b4-8e28-e94ba1342e9c" />
 4. In the chat click on "Configure Tools"
-   <img width="653" height="343" alt="image" src="https://github.com/user-attachments/assets/b819df14-72c7-407b-911f-43169b7d57b3" />
+   <br><img width="653" height="343" alt="image" src="https://github.com/user-attachments/assets/b819df14-72c7-407b-911f-43169b7d57b3" />
 5. Add more tools
-   <img width="971" height="494" alt="image" src="https://github.com/user-attachments/assets/1a1487d6-3bb7-483a-956f-ea10b82dc7cd" />
+   <br><img width="971" height="494" alt="image" src="https://github.com/user-attachments/assets/1a1487d6-3bb7-483a-956f-ea10b82dc7cd" />
 6. Add MCP Server
-   <img width="669" height="168" alt="image" src="https://github.com/user-attachments/assets/f80488df-9a40-4cfb-a25d-c2ea8791d53d" />
+   <br><img width="669" height="168" alt="image" src="https://github.com/user-attachments/assets/f80488df-9a40-4cfb-a25d-c2ea8791d53d" />
 7. This creates an mcp.json file with minimal configuration of the command your mcp server will run, in out case the repo already has that so step #4 to #7 is not needed
-   <img width="858" height="341" alt="image" src="https://github.com/user-attachments/assets/0f2e8946-5101-48dc-9f7e-160b89597383" />
+   <br><img width="572" height="112" alt="image" src="https://github.com/user-attachments/assets/f80488df-9a40-4cfb-a25d-c2ea8791d53d" />
+   <br><img width="572" height="227" alt="image" src="https://github.com/user-attachments/assets/0f2e8946-5101-48dc-9f7e-160b89597383" />
 8. Just go to that file and click "Restart"
 9. The server.js has three tools greet, calculate and weather_info
-   <img width="648" height="363" alt="image" src="https://github.com/user-attachments/assets/db22b737-cde4-4950-8885-e24b965c2c2a" />
+   <br><img width="432" height="242" alt="image" src="https://github.com/user-attachments/assets/db22b737-cde4-4950-8885-e24b965c2c2a" />
 10. You can interact with these now using prompts like:
-    <img width="495" height="826" alt="image" src="https://github.com/user-attachments/assets/f9e24139-89e7-4630-8bd5-d61b80f67fb2" />
+   <br><img width="330" height="550" alt="image" src="https://github.com/user-attachments/assets/f9e24139-89e7-4630-8bd5-d61b80f67fb2" />
 
 
 
