@@ -6,6 +6,10 @@ A simple Model Context Protocol (MCP) server implementation in Node.js. This ser
 - **calculate**: Perform basic math calculations.
 - **weather_info**: Get mock weather information for a city.
 
+<a href="https://glama.ai/mcp/servers/@devashish234073/my-mcps">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@devashish234073/my-mcps/badge" alt="my-mcp-server MCP server" />
+</a>
+
 ## Features
 - MCP server using `@modelcontextprotocol/sdk`
 - Stdio transport for easy integration
@@ -36,9 +40,3 @@ A simple Model Context Protocol (MCP) server implementation in Node.js. This ser
    <br><img width="432" height="242" alt="image" src="https://github.com/user-attachments/assets/db22b737-cde4-4950-8885-e24b965c2c2a" />
 10. You can interact with these now using prompts like:
    <br><img width="330" height="550" alt="image" src="https://github.com/user-attachments/assets/f9e24139-89e7-4630-8bd5-d61b80f67fb2" />
-
-
-
-
-
-
