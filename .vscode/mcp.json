@@ -1,9 +1,14 @@
 {
 	"servers": {
-		"my-node-mcp-server": {
+		"mcp-server-1": {
 			"type": "stdio",
 			"command": "node",
-			"args": ["server.js"]
+			"args": ["server1.js"]
+		},
+		"mcp-server-2": {
+			"type": "stdio",
+			"command": "node",
+			"args": ["server2.js"]
 		}
 	},
 	"inputs": []

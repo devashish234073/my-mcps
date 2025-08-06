@@ -9,7 +9,7 @@ import {
 
 const server = new Server(
   {
-    name: "my-mcp-server",
+    name: "mcp-server-1",
     version: "1.0.0",
   },
   {
@@ -64,7 +64,7 @@ server.setRequestHandler(ListToolsRequestSchema, async () => {
           },
           required: ["city"],
         },
-      },
+      }
     ],
   };
 });
@@ -117,9 +117,9 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
         "Tokyo": "Rainy, 68°F",
         "Sydney": "Partly cloudy, 75°F",
       };
-      
+
       const weather = weatherData[args.city] || "Weather data not available for this city";
-      
+
       return {
         content: [
           {
@@ -128,7 +128,6 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
           },
         ],
       };
-
     default:
       throw new Error(`Unknown tool: ${name}`);
   }
