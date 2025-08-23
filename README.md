@@ -6,6 +6,12 @@ A simple Model Context Protocol (MCP) server implementation in Node.js. This ser
 - **calculate**: Perform basic math calculations.
 - **weather_info**: Get mock weather information for a city.
 
+Above ones are implemented in the server1.js
+
+in server2 there is an agent that requires selenium web driver that launches the html provided in prompt in a browser and tests and returns if any console errors are thrown.
+
+All these agents can be used in not just copilot but with other AI extensions too for example refer this video for Amazon Q --> https://www.youtube.com/watch?v=sF6KkaV102M
+
 ## Features
 - MCP server using `@modelcontextprotocol/sdk`
 - Stdio transport for easy integration
